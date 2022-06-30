@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+#imagecontainer {
+    position: relative;
+}
+
+#imagestatement {
+    position: absolute;
+    bottom: 3px;
+    right: 150px;
+    width: 500px;
+}
+
+#imagestatement .innerstatement {
+    font-size: 1.40rem;
+    width: 325px;
+    margin: auto;
+    padding: 50px;
+}
+
+.innerstatement h1 {
+    margin-top: 0;
+    font-size: 3.75rem;
+    font-weight: bold;
+}
+
+.innerstatement p {
+    font-weight: lighter;
+}
+
+#readmore {
+    margin-top: 30px;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+#readmore:hover {
+    background-color: rgb(238, 234, 234);
+}
+
+#readmore a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color:#ff3300;
+}
+
+.bg-orange {
+    background-color: #ff3300;
+}
+
+.text-white {
+    color: white;
+}
+
+.first {
+    background-color: rgb(37, 82, 37);
+    padding: 30px;
+}
+
+.first p {
+    text-align: center;
+    line-height: 0.5;
+    font-weight: lighter;
+}
+
+.second {
+    background-color: rgb(15, 15, 15);
+    padding: 30px;
+}
+
+.second p {
+    text-align: center;
+}
+
+.second p a {
+    color: white;
+    text-decoration-color: white;
+    font-weight: lighter;
+}
+
+.second p a:hover {
+    text-decoration: none;
+  }
